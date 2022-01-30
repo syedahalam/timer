@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@400;700&family=Inter:wght@400;500;700&family=Lato:wght@400;700&family=Oswald:wght@700&family=Roboto:wght@300;400;700&family=Rubik:wght@400;500;600&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(./bi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {
+	font-size: 5rem;
+	font-weight: bold;
+	padding: 3rem;
+}
+.coming-soon {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.countdown {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	padding: 3rem;
+}
+.days,
+.hours,
+.minutes,
+.seconds {
+	font-size: 3rem;
+}
